@@ -9,6 +9,17 @@
         o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
         y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
         z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+    
+  pendo.initialize({
+      visitor: {
+        id: "anonymous-" + Math.random().toString(36).substring(7), // Random ID for testing
+        role: "guest", // Example metadata
+      },
+      account: {
+        id: "free-hosted-html",
+        plan: "basic"
+      }
+    });
 })('b7a10b1d-9e3e-49a5-4e5b-da9d09025063');
 </script>
   
@@ -53,6 +64,16 @@
         o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
         y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
         z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+    pendo.initialize({
+      visitor: {
+        id: "anonymous-" + Math.random().toString(36).substring(7), // Random ID for testing
+        role: "guest", // Example metadata
+      },
+      account: {
+        id: "free-hosted-html",
+        plan: "basic"
+      }
+    });
 })('b7a10b1d-9e3e-49a5-4e5b-da9d09025063');
 </script>
   
